@@ -3,7 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     background-color: currentColor;
-    background-image: url("static/img/bkgrd.jpg");
+    background-image: url('https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+    height: 100%;
   }
   .center-on-page {
     position: absolute;
@@ -15,7 +16,7 @@ body {
     text-align: center;
     color:#FFFFFF;
   }
-  h4 {
+  h3 {
     text-align: center;
     color:#FFFFFF;
   }
