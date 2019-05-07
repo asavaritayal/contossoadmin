@@ -5,6 +5,8 @@ body {
     background-color: currentColor;
     background-image: url('https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .center-on-page {
     position: absolute;
@@ -97,4 +99,13 @@ body {
   }
   .button:hover{
     color: #f39c12;
+  }
+
+  .change-my-color{
+    fill: #ffffff;
+  }
+
+  .custom{
+    background: #2c3e50;
+    background-color: #2c3e50;
   }

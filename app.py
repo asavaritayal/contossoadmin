@@ -33,7 +33,10 @@ def github_login():
 
 		cups = requests.get(f'https://coffeeandcodeatbuild.azurewebsites.net/api/HttpTrigger?hours={hours}')
 
-		return str(cups.json())
+		return render_template(
+        	'result.html',
+			hours = hours,
+        	cups=int(cups.json()))
 
 	return '<h1>Request failed!</h1>'
 
