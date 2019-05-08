@@ -39,7 +39,7 @@ def github_login():
 		commits = len(commit_info.json())
 		hours = commits * 10
 
-		cups = requests.get(f'https://coffeeandcodeatbuild.azurewebsites.net/api/HttpTrigger?hours={hours}')
+		cups = requests.get(f'https://coffeencodefunc.azurewebsites.net/api/HttpTrigger?hours={hours}')
 
 		return render_template(
         	'result.html',
