@@ -3,26 +3,13 @@
 To use this sample:
 
 - Install [Python 3.6](https://www.python.org/downloads/)
+- Set the following environment variables: CLIENT_ID, CLIENT_SECRET
 
 ### Download the sample
 
 ```bash
 git clone https://github.com/asavaritayal/contossoadmin.git
 cd contossoadmin
-```
-
-### Create and activate a virtual environment
-
-Run the following commands to create and activate a virtual environment named .env.
-
-```bash
-# In Bash
-python3.6 -m venv .env
-source .env/bin/activate
-
-# In PowerShell
-py -3.6 -m venv .env
-.env\scripts\activate
 ```
 
 ### Install dependencies
@@ -40,3 +27,5 @@ Use the following command to run the app locally.
 ```bash
 python app.py
 ```
+
+Navigate to http://127.0.0.1:5000/ in your browser window.
